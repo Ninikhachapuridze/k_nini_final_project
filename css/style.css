@@ -1,0 +1,82 @@
+/* header style */
+.nav-a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color:#707070;
+    
+}
+.navigation-wraper{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-ul{
+    display: flex;
+}
+.nav-ul li{
+    margin-right: 22px;
+}
+.header-wraper{
+    background-color: #EAEAEA;
+    padding: 15px;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+    margin-bottom: 100px;
+}
+.burger-bar{
+    color: #FFBF9D;
+    font-size: 30px;
+    display: none;
+}
+.logo{
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 32px;
+    color: #000;
+}
+
+/* first section styles */
+body{
+    margin-top: 200px;
+}
+.title-h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    color: #303036;
+    
+}
+.tip-section{
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.title-p{
+    max-width: 560px;
+    width: 100%;
+    margin-top: 31px;
+    line-height: 20px;
+    
+}
+.popular-recipes{
+    max-width: 220px;
+    width: 100%;
+    height: 56px;
+    background-color: #707070;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.mini-div-h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+
+}
+
