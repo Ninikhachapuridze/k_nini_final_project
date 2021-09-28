@@ -16,7 +16,7 @@
     margin-right: 22px;
 }
 .header-wraper{
-    /* background-color: #EAEAEA; */
+    background-color: #EAEAEA;
     padding: 15px;
     position: fixed;
     top:0;
@@ -24,6 +24,7 @@
     width: 100%;
     z-index: 50;
     margin-bottom: 100px;
+    
    
 
 }
@@ -50,6 +51,10 @@ body{
     
     
     
+}
+.tip-section1{
+    margin-top: 20px;
+    margin-bottom: 100px;
 }
 .title-h1{
     font-family: 'Montserrat', sans-serif;
@@ -105,9 +110,9 @@ body{
     
 
 }
-.popular-recipes:hover{
-    background-color: #FFBF9D;
-    
+  .popular-recipes:hover{
+    background-color: #FFBF9D; 
+     
 }
 .tip-image{
     max-width: 1145px;

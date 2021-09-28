@@ -2,11 +2,11 @@ $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
         if (scroll > 300) {
-          $(".navigation-wraper").css("background" , "#FFBF9D");
+          $(".header-wraper").css("background" , "#FFBF9D");
         }
   
         else{
-            $(".navigation-wraper").css("background" , "#9FA1AA");  	
+            $(".navigation-wraper").css("background" , "");  	
         }
     })
   })
