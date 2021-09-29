@@ -3,6 +3,8 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     color:#707070;
+    font-weight: 700;
+    
     
 }
 .navigation-wraper{
@@ -23,14 +25,10 @@
     left: 0;
     width: 100%;
     z-index: 50;
-    margin-bottom: 100px;
-    
+    margin-bottom: 100px; 
    
 
-}
-
-
-  
+}  
 .burger-bar{
     color:#EAEAEA;
     font-size: 30px;
@@ -45,10 +43,9 @@
 /* first section styles */
 body{
     margin-top: 200px;
-    height: 1400px;
+    /* height: 1400px; */
     background-color:lightyellow;
-    padding:30px;
-    
+    padding:30px;  
     
     
 }
@@ -70,8 +67,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
-    
+    justify-content: center;   
       
     
 }
@@ -121,6 +117,7 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    /* margin-top: 30px; */
 }
 .first-section-img{
     
@@ -186,5 +183,53 @@ body{
     height: 100%;
     display: block;
     object-fit: cover;
+}
+/* lifestyle styles */
+.container-div{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.lifestyle-text{
+    max-width: 1145px;
+    width: 100%;
+    margin: o auto;
+    display: flex;
+    flex-direction: column;    
+    border-radius: 10px;
+    background-color:blanchedalmond;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.title-lifestyle-p{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #595C69;
+    
+}
+.lifestyle-paragraph{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #595C69;
+    margin-top: 10px;
+
+}
+.headline-lifestyle{
+    font-size: 30px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-weight: 500;
+    text-align: center;
+    color: #595C69;
+    margin-top: 70px;
+    margin-bottom: 30px;
+
 }
 
