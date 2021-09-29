@@ -259,34 +259,35 @@ body{
    padding: 20px;
    align-items: center;
 }
-.color-div-recipes{
+
+.secend-conteiner-recipes{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    max-width: 150px;
-    width: 100%;
-    height: 150px;
-    border-radius: 20px;
-    background-color: #FFBF9D;
-    position: relative;
-    animation: colordive 10s infinite;
+    justify-content:space-evenly;
+    margin-top: 50px;
 
 }
-/* .color-div-recipes1{
-    max-width: 150px;
-    width: 100%;
-    height: 150px;
-    border-radius: 20px;
-    background-color: #9FA1AA;
-    position: relative;
-    animation: colordive 20s infinite;
+.recipes-title{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #595C69;
 
-
-} */
-   
-@keyframes colordive{
-    from{ left:0px}
-    to{ left:200px}
 }
+.recipies-h3{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #595C69;
+    margin-top: 10px;
 
-
+}
+.recipe-ul li{
+    font-size: 15px;
+    color: black;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
 
