@@ -44,8 +44,8 @@
 body{
     margin-top: 200px;
     /* height: 1400px; */
-    background-color:lightyellow;
-    /* background-color: #9FA1AA; */
+    /* background-color:lightyellow; */
+    background-color: #9FA1AA;
     padding:30px;  
     
     
@@ -202,7 +202,8 @@ body{
     display: flex;
     flex-direction: column;    
     border-radius: 10px;
-    background-color:blanchedalmond;
+    /* background-color:blanchedalmond; */
+    background-color: #FFBF9D;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -223,12 +224,13 @@ body{
 
 }
 .headline-lifestyle{
-    font-size: 30px;
+    font-size: 40px;
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Mrs Saint Delafield', cursive;
     font-weight: 500;
     text-align: center;
-    color: #595C69;
+    /* color: #595C69; */
+    color: black;
     margin-top: 100px;
     margin-bottom: 30px;
    
@@ -291,4 +293,45 @@ body{
     font-weight: 700;
     text-decoration: underline;
 }
+/* abaut section styles */
+.about-section-container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-top: 50px;
 
+}
+.about-paragraph{
+    max-width: 672px;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #595C69;
+    font-weight: 500;
+    line-height: 15px;
+    margin-top: 70px;
+    text-indent: 10px;
+    /* background-color: blanchedalmond; */
+    background-color: #FFBF9D;
+    border-radius: 10px;
+    padding: 10px;
+}
+.read-more{
+    margin-top: 10px;
+    max-width: 220px;
+    width: 100%;
+    height: 56px;
+    background-color: #595C69;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.learn-more-h3{
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
