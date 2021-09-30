@@ -341,17 +341,16 @@ body{
 /* contact section styles */
 .div-map{
     max-width: 600px;
-    height: 300px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px;
+    
 
 }
 .map{
     max-width: 600px;
-    height: 300px;
     width: 100%;
 }
 .map-sign{
