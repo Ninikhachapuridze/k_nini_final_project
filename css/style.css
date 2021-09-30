@@ -30,7 +30,7 @@
 
 }  
 .burger-bar{
-    color:#EAEAEA;
+    color:black;
     font-size: 30px;
     display: none;
 }
@@ -147,11 +147,13 @@ body{
     max-width: 352px;
     width: 100%;
     color: #595C69;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto', sans-serif;
     margin-top: 10px;
     text-indent: 8px;
-    font-weight: 500;
-    line-height: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 20px;
     
 }
 .mini-div-tips{
@@ -308,10 +310,11 @@ body{
     max-width: 672px;
     width: 100%;
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto', sans-serif;
     color: #595C69;
-    font-weight: 500;
-    line-height: 15px;
+    font-weight: 600;
+    line-height: 20px;
     margin-top: 70px;
     text-indent: 10px;
     /* background-color: blanchedalmond; */
