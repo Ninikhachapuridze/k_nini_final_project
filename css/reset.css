@@ -47,3 +47,7 @@ a{
 *{
 	box-sizing: border-box;
 }
+textarea {
+	resize: none;
+}
+:focus { outline: none; }
