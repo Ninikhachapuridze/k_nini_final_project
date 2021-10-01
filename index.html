@@ -24,22 +24,22 @@
     <link rel="icon" href="https://thumbs.dreamstime.com/z/chef-cooking-hat-vector-outline-logo-kitchen-simple-red-icon-chef-cooking-hat-vector-outline-logo-kitchen-simple-red-130732886.jpg"  sizes="16x16">
 
     <title>Simple food</title>
-
-    	
+       	
 	<link rel="stylesheet"  href="css/slick.css">
 	<link href="https://kenwheeler.github.io/slick/slick/slick-theme.css" rel="stylesheet"/>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <script src="script.js"></script>
+    <script src="script-toggle.js"></script>
+    
     <header class="header-wraper">
         <div class="navigation-wraper">
             <a class="logo" href="index.html"> Simple Food </a>
-            <nav class="navigation">
+            <nav class="navigation" id="navbarlinks">
                 <ul class="nav-ul">
                     <li>
                         <a class="nav-a" href="#tip-sec">Tips</a>
@@ -58,12 +58,13 @@
                     </li>
                 </ul>
             </nav>
-            <div class="burger-bar">
+            <div class="burger-bar" id="togglebutton">
                 <i class="fas fa-bars"></i>
-
             </div>
+            
 
         </div>
+       
     </header>
 
     <section class="tip-section1" id="tip-sec" >        
@@ -407,7 +408,8 @@
                     </div>
                     
         
-                    <input class="submit" type="submit" value="Send">                
+                    <input id="send" class="submit" type="submit" value="Send">   
+                    <!-- <script src="script.js"></script> -->
         
                     
                 </form>
@@ -420,6 +422,13 @@
         
 
     </section>
+    <footer>
+        <div>
+            <h2>
+                Copyright @ Simple Food 2020
+            </h2>
+        </div>
+    </footer>
    
     
     

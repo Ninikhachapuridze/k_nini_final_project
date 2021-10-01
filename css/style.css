@@ -30,6 +30,9 @@
 
 }  
 .burger-bar{
+    position: absolute;
+    /* top:30px; */
+    right: 30px;
     color:black;
     font-size: 30px;
     display: none;
