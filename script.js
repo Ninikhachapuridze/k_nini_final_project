@@ -40,5 +40,3 @@ $('.multiple-items').slick({
 
 
 
-
-
