@@ -38,17 +38,6 @@ $('.multiple-items').slick({
 });  
 });
 
-document.getElementById('send').addEventListener("click", function(){
-  alert('Message sent');
-})
-
-
-let navbarlinks = document.getElementById('navbarlinks');
-let togglebutton = document.getElementById('togglebutton');
-
-togglebutton.addEventListener('click',function() {
-  navbarlinks.classList.toggle('active');
-})
 
 
 

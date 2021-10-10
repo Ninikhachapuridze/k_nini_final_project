@@ -425,3 +425,42 @@ body{
 .submit{
     margin-top: 10px;
 }
+/* footer styles */
+.footer-div{
+    display: flex;
+    /* margin: 0 auto;
+    max-width: 1144px; */
+    height: 90px;
+    width: 100%;
+    background-color: #595C69;
+    justify-content: space-between;
+}
+
+.footer-title{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 35px;
+    padding-left: 10px;
+
+}
+.footer-social-icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    font-size: 30px;
+    
+}
+.footer-social-icons :nth-child(2){
+    margin-right: 7px;
+    margin-left: 7px;
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-instagram{
+    color: purple;
+}
+.fa-pinterest-square{
+    color: red;
+}
